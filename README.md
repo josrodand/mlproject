@@ -86,3 +86,44 @@ pip install -r requirements.txt
 ```
 
 Having  `-e .` in requirements file will do that instalation connects with setup.py and will create a package metadata folder: ``mlproject.egg-info``
+
+## create components
+
+We create components folder with files:
+- init file
+- data_ingestion.py
+- data_transformation.py
+- model_trainer.py
+
+## Create pipeline
+
+We cretate pipeline folder with files:
+- init file
+- train_pipeline.py
+- predict_pipeline.py
+
+
+## More files
+
+- Create logger.py, utils.py and exception.py in src folder
+
+## Exception code
+
+We have created a custom exception handler that takes errors and shows file, line and type of error
+
+## logging code
+
+We create logging code that allows the code to make log files in a directory
+
+We can test logging code with python logger.py. It will create logs directory, with a folder with the date and file
+
+
+
+
+
+
+
+
+
+
+
