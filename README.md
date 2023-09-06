@@ -115,7 +115,28 @@ We have created a custom exception handler that takes errors and shows file, lin
 
 We create logging code that allows the code to make log files in a directory
 
-We can test logging code with python logger.py. It will create logs directory, with a folder with the date and file
+We can test logging code with python logger.py. It will create logs directory, with a folder with the date and file.
+
+## Start project
+
+first download data from github and put un folder notebook/data
+
+Create notebooks: eda and model training.
+
+## Create process modules
+
+- Metric code, model selection, etc in utils
+- Training code in model_trainer
+
+We will see
+
+## Data ingestion implementation
+
+Creamos clase DataIngestionconfig con los paths. Usamos dataclass para crear clases solo con atributos. Para meter metodos mejor hacerlo normal
+
+
+
+
 
 
 
