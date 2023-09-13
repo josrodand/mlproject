@@ -134,6 +134,13 @@ We will see
 
 Creamos clase DataIngestionconfig con los paths. Usamos dataclass para crear clases solo con atributos. Para meter metodos mejor hacerlo normal
 
+Aqui lo que hemos hecho es generar una clase que incluya toda la ingesta. De momento es basicamente leer desde un csv y dividir en train y test. 
+
+Esto genera un directorio artifacts con los ficheros en csv de raw, train y test. con la clase generamos automaticamente los directorios a partir del path
+
+En gitignore conviene añadir la carpeta artifacts para que no la suba a github. este tio la ha puesto pero se ha subido
+hay que mirarlo
+
 
 
 
